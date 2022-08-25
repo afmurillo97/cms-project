@@ -4,7 +4,7 @@ $(document).on('ready', iniciar);
 	}
 
 function editarEmpresa() {
-	var idEmpresa = $("#idEmpresa").val();
+ 	var idEmpresa = $("#idEmpresa").val();
 	var nombre = $("#nombre").val();
 	var nit = $("#nit").val();
 	var direccion = $("#direccion").val();
@@ -30,11 +30,10 @@ function editarEmpresa() {
 		success: function(resultado) {
 			if (resultado) {
 				jQuery.noConflict();
-				alert('Hello World');
 				$('#modalEditSuccess').modal('show');
 			}else{
 				$('#modalDanger').modal('show');
 			}
 		}
-	});
+	}); 
 }
