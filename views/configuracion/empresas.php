@@ -135,8 +135,8 @@
                                       <!-- /.input group -->
                                     </div>
 
-                                    <button type="button" class="btn btn-outline-primary" id="editarEmpresa" '.permisosItem($_SESSION['idUsuario'], 'editar empresa').'>Editar</button>
-                                    <button type="button" class="btn btn-outline-danger" >Cancelar</button>
+                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" id="editarEmpresa" '.permisosItem($_SESSION['idUsuario'], 'editar empresa').'>Editar</button>
+                                    <button type="button" class="btn btn-outline-danger" onClick="history.back()">Cancelar</button>
 
 
                                     <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalCreateSuccess">
