@@ -49,7 +49,7 @@
           </button>
           <br/>
           <p class="mb-1">
-              <a href="#">I forgot my password</a>
+              <a href="#">Olvidé mi contraseña</a>
           </p>
         </div>
 
