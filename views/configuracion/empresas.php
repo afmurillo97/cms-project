@@ -81,12 +81,12 @@
 											</div>
 											
 											<div class="form-group">
-												<label>Telefono:</label>
+												<label>Teléfono:</label>
 												<div class="input-group">
 													<div class="input-group-prepend">
 														<span class="input-group-text"><i class="fas fa-phone"></i></span>
 													</div>
-													<input type="text" class="form-control" id="telefono" value="'.$fila['telefono'].'">
+													<input class="form-control" data-inputmask-clearmaskonlostfocus="false" id="telefono" value="'.$fila['telefono'].'">
 												</div>
 											</div>
 											
@@ -140,6 +140,7 @@
     <?php include_once "../layouts/footer.php" ?>
     <!-- END FOOTER -->
 	<?php include_once "../layouts/scripts.php" ?>
-	<script src="empresasUtils/functions.js"></script>	
+	<script src="empresasUtils/functions.js"></script>
+	<script src="../../public/plugins/inputmask/inputmask.js"></script>
 </body>
 </html>

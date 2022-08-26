@@ -1,7 +1,13 @@
+
+
 $(document).on('ready', iniciar);
 	function iniciar(){
 		$('#editarEmpresa').click(editarEmpresa);
 	}
+
+// $(document).ready(function(){
+// 	$("#telefono").inputmask({"mask": "(999) 999-9999"});
+//   });
 
 function editarEmpresa() {
  	var idEmpresa = $("#idEmpresa").val();
