@@ -20,7 +20,7 @@
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="#" class="h1"><b>Electroni</b>TECCH</a>
+      <a href="#" class="h1"><b>Electroni</b>TECH</a>
     </div>
     <div class="card-body">
       <p class="login-box-msg">Ingresa tus datos para Iniciar Sesión</p>
